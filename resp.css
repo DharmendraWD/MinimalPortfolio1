@@ -1,0 +1,260 @@
+@media(max-width:800px){
+
+    /* After click on hamburger */
+    /* nav{
+        width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    }
+    nav .centerLinks{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .centerLinks a{
+        margin: 12px 0 12px 0;
+    } */
+        .mobile nav .centerLinks{
+            opacity: 0;
+            pointer-events: none;
+        }
+      .mobile #HireMe{
+          opacity: 0;
+          pointer-events: none;
+        }
+        .mobileView{
+            display: flex;
+            flex-direction: column;
+           top:  100px;
+        
+        }
+        #page .mobileView img {
+    width: 30%;
+    position: relative;
+
+}
+.leftBtn{
+    display: flex;
+    justify-content: center;
+}
+.pg1LeftText h1{
+    display: inline;
+}
+.pg1LeftText {
+    left: 1%;
+    width: 100%;
+        top: 20px;
+    
+}
+.checkOut p{
+    font-size: 21px;
+    /* display: none; */
+    
+}
+.rightTextContainer h1:nth-of-type(1) {
+    font-size: 24px;
+}
+.pg1LeftText button {
+    font-size: 17px;
+}
+.pg1LeftText button i {
+    font-size: 24px;
+}
+.pg1LeftText p {
+    font-size: 23px;
+}
+#fImage img{
+  display: none;
+}
+.checkOut i {
+    font-size: 25px;
+}
+#page {
+    height: 430px;
+    top: 23px;
+}
+#page1 {
+    height: 70vh;
+    grid-template-columns: 1fr;
+}
+.textContainer {
+    margin: 0 12px 0 12px;
+}
+#text1 p {
+    font-size: 10px;
+    margin-top: 1px;
+}
+.rightTextContainer h6 {
+    font-size: 23px;
+}
+.rightTextContainer a {
+    font-size: 17px;
+    width: 100%;
+    display: block;
+    top: 0vh;
+}
+#text1 h1 {
+    font-size: 31px;
+}
+#text1 p {
+    font-size: 19px;
+}
+#text1 {
+    grid-row: 1/1;
+}
+.page2Ch1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+.page2 {
+    flex-direction: COLUMN;
+    height: 129vh;
+}
+.skillsList, .skillsHeading{
+    margin-left: 0;
+}
+.skillsImage {
+    text-align: center;
+}
+.skillsHeading p {
+    left: 45px;
+    font-size: 19px;
+}
+.skillsHeading h1 {
+    left: 29px;
+    font-size: 24px;
+    position: relative;
+    top: 12px;
+}
+.skillsImage p {
+    font-size: 16px;
+}
+.skillsImage img {
+    width: 46px;
+}
+.page2Ch2 {
+    width:100%;
+    height: 200%;
+}
+.skillsList h2 {
+    opacity: 0;
+}
+
+.page3 {
+    height: 100%;
+    flex-direction: column;
+    height: 100%;
+}
+.project1 {
+    position: static;
+}
+.projectParent {
+    width: 100%;
+    flex-direction: column;
+}
+.lastPageChild h1 {
+    display: block;
+    text-align: center;
+}
+.page3 {
+    position: relative;
+    top: 56px;
+}
+.longHrBarTop h2{
+    font-size: 20px;
+}
+.longHrBarTop p {
+    font-size: 15px;
+    text-align: center;
+}
+.projectParent h1 {
+    font-size: 30px;
+}
+.clintsWord {
+    grid-template-columns: 1fr;
+    height: 100%;
+
+}
+
+.cChild h1 {
+    top:0;
+}
+
+.cChild p {
+    font-size: 18px;
+    padding: 0 12px;
+}
+.cChildLongPara{
+    justify-content: center;
+    margin: 12px 0;
+}
+.ri-arrow-right-up-fill, .ri-arrow-left-down-fill{
+        font-size: 27px; 
+}
+.aMan {
+    width: 43vw;
+}
+.aLady {
+    justify-content: end;
+}
+.barTop{
+    display: none;
+}
+.cChild p {
+    font-size: 19px;
+    padding: 0 16px;
+    text-align: justify;
+}
+.lastPage {
+    position: relative;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 120vh;
+}
+.lastPageChild h1 {
+    font-size: 30px;
+}
+.lastPageChild {
+    width: 95%;
+    height: 60%;
+    flex-direction: column;
+    justify-content: end;
+}
+.afterH1 {
+    top: 0;
+}
+.emailAddress i{
+    font-size: 14px;
+}
+.emailAddress span{
+    font-size: 20px;
+}
+.emailAddress p{
+    font-size: 18px;
+}
+.lastPara>p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 30px 16px;
+}
+.munnaBhaiya {
+    align-items: center;
+}
+.munnaBhaiya img{
+ width: 213px;
+}
+.munnaBhaiya p{
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+
+@media(min-width:801px){
+    .hamburger{
+        display: none;
+    }
+}

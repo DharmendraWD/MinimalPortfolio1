@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    position: relative;
+    overflow: hidden;
+}
+/* PAGES PAGEs PAGES  */
+#page{
+    height: 100vh;
+    width:100vw ;
+    position: relative;
+    /* margin: 0 12% 0 12%; */
+}
+#page1{
+    height: 100vh;
+    width:100vw ;
+    background-color: rgb(255, 238, 0);
+    position: relative;
+}
+#page .mobileView img{
+    width: 30%;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    transform: translate-(-50%);
+}
+.mobileView{
+    position: relative;
+    top: 100px;
+}
+nav{
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav img{
+    width: 33px;
+}
+nav a{
+    text-decoration: none;
+    list-style: none;
+    padding:0 8px 0 8px ;
+    color: rgb(66, 66, 129);
+    transition: 1s ease-in-out;
+    font-family: raleway;
+}
+nav a:hover{
+color: royalblue;
+}
+nav button{
+padding: 3px 5px 3px 5px;
+color: royalblue;
+transition: 1s ease-in-out;
+outline: none;
+border: none;
+}
+nav button:hover{
+background: royalblue;
+color: white;
+}
+
+
+
+/* Left Side first page CSS  */
+.pg1LeftText{
+    /* background-color: blue; */
+    width: 50%;
+    position: relative;
+    left: 5%;
+    /* top: 20%; */
+}
+.pg1LeftText h1{
+   font-family: Tilt Prism;
+   font-size: 5vw;
+}
+.pg1LeftText p{
+   font-family: handjet;
+   font-size: 2vw;
+}
+.pg1LeftText button{
+   padding: 7px 18px;
+    outline: none;
+    font-size: 1.5vw;
+    font-family:raleway;
+    border-radius: 19px;
+    border: 1px solid rgb(168, 160, 197);
+    transition: .4s ease-in-out;
+    position: relative;
+    top: 4vh;
+}
+.pg1LeftText button i{
+font-size: 1.8vw;
+}
+.pg1LeftText #b1{
+background-color: #8873EF;
+margin: 0 9px 0 0;
+}
+.pg1LeftText #b1:hover{
+background-color: #f0f0f0;
+margin: 0 9px 0 0;
+}
+.pg1LeftText #b2:hover{
+background-color: #8873EF;
+}
+
+/* horizontal Bar of Paragraph */
+.hrBar{
+    width: 28px;
+    height: 3px;
+    display: inline-block;
+    background-color: rgb(107, 61, 194);
+}
+
+/* Checkout Paragraph  */
+.checkOut{
+    display: flex;
+    height: 12vh;
+    align-items:end;
+}
+.checkOut p{
+font-family: Dancing Script;
+margin-right: 12px;
+color:#49494b;
+}
+.checkOut i{
+font-size: 2.1vw;
+transition: 1s ease-in-out;
+margin: 0 .7vw 0 .7vw;
+color: rgb(255, 3, 3);
+}
+.checkOut i:hover{
+color: rgb(3, 3, 3);
+}
+
+/* YELLOW PAGE CSS  */
+#page1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.textContainer{
+/* border: 1px solid yellow; */
+margin: 30px 12px 0 12px;
+}
+#text1 h1{
+font-size: 4vw;
+}
+#text1 p{
+font-size: 2vw;
+text-align: justify;
+line-height: 1.3;
+margin-top: 17px;
+}
+
+.longHrBar{
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    height: 3px;
+    display: inherit;
+}
+.textContainer h6{
+    display: inline;
+}
+.rightTextContainer h6{
+    margin: 0 45px 0 0;
+    font-family: EB Garamond;
+    font-size: 1.8vw;
+}
+.rightTextContainer h1:nth-of-type(1) {
+display: inline;
+position: absolute;
+}
+.rightTextContainer a{
+    position: relative;
+    top: 14vh;
+    text-decoration: none;
+    font-family: EB Garamond;
+font-size: 1.6vw;
+}
+#text1{
+    grid-row: 1/5;
+}
+
+/* 3rd PAGE  CSS | SKILLS AND EXPERIENCE  */
+.page2{
+    width:100vw ;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    position: relative;
+}
+.page2Ch1{
+    height: 100%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.page2Ch2{
+    height: 100%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.skillsImage img{
+    width: 60px;
+}
+.skillsList, .skillsHeading{
+    margin-left: 5%;
+}
+.skillsHeading p{
+   width: 60%;
+   font-family:EB Garamond;
+   font-size: 2vw;
+   position: relative;
+   top: 30px;
+}
+.skillsHeading h1{
+   font-family:EB Garamond;
+   font-size: 4vw;
+}
+.skillsImage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.skillsImage .images{
+margin: 11px 0 11px 0;
+}
+.skillsImage p{
+position: relative;
+font-family:  EB Garamond;
+font-size: 1.5vw;
+}
+.skillsList h2{
+    font-family: EB Gramond;
+    font-size: 2vw;
+}
+.skArrow{
+    position: absolute;
+    right: 41px;
+    color: #9f9fa9;
+    font-size: 4vw;
+}
+.image p{
+    font-family: EB Garamond;
+    font-size: 1.8vw;
+}
+
+/* 4th page CSS here  */
+.page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+    position: inherit;
+    display: flex;
+}
+.projectParent{
+    width: 30.3%;
+    margin: 1.3%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.projectParent h1{
+    font-family: tilt prism;
+font-size: 4vw;
+}
+.cChild p{
+    font-family: EB Garamond;
+    font-size: 1.7vw;
+}
+.projectParent a img{
+width: 70%;
+border: 2px solid wheat;
+background-size: cover;
+}
+.projectParent a{
+display: flex;
+justify-content: center;
+}
+.projectParent .longHrBarTop{
+position: relative;
+top: 35px;
+margin: 0 0 45px 0;
+}
+.bar3{
+    margin-bottom: 17px;
+}
+.projectsArrow{
+margin-left: 24px;
+position: absolute;
+background-color: #8873EF;
+color: white;
+border-radius: 50%;
+}
+.longHrBarTop p{
+    font-family: EB Garamond;
+    font-size: 1.8vw;
+}
+.project1{
+position: relative;
+top: 15%;
+}
+.project2{
+position: relative;
+top: 22%;
+}
+.project3{
+position: relative;
+top: 10%;
+}
+
+
+
+/* Client's Word Page  */
+
+.clintsWord{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 2fr 1fr);
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    position: inherit;
+    justify-content: center;
+    /* align-items: end; */
+}
+.cChild{
+    margin:2px;
+}
+.cChild h1{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family: tilt prism;
+}
+.aMan{
+    width: 30vw;
+}
+.cChildLongPara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aMan, .aLady{
+ display: flex;
+     align-items: flex-end; 
+}
+.twoArrow{
+color: rgb(10, 178, 207);
+border: 1px solid black;
+padding: 13px 34px 13px 34px;
+border-radius: 29px;
+font-size: 3vw;
+transition: .4s ease-in-out;
+}
+.twoArrow:hover{
+color: rgb(217, 255, 0);
+border-color: rgb(83, 67, 67);
+}
+.barTop{
+    position: absolute;
+    top: 40%;
+    width: 50%;
+}
+
+/* Last Page  */
+.lastPage{
+display: flex;
+ height: 100vh;
+    width: 100vw;
+    background-color: rgb(238, 255, 0);
+    position: inherit;
+    justify-content: space-evenly;
+}
+.lastPageChild{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+}
+.lastPageChild h1{
+font-family: tilt prism;
+font-size: 3vw;
+}
+.afterH1{
+    position: relative;
+    top: 70px;
+    margin: 40px 0 0 0;
+}
+.emailAddress{
+    position: relative;
+    top: 30px;
+    left: 5%;
+}
+.emailAddress p{
+position: relative;
+left: 13%;
+font-size: 1.7vw;
+font-family: EB Garamond;
+}
+.emailAddress span{
+font-size: 1.7vw;
+}
+.linw{
+    margin: 0 20px 0 0;
+    font-size: 2.6vw;
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 50%;
+}
+.munnaBhaiya{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+height: 100%;
+
+}
+.munnaBhaiya p{
+font-size: 3vw;
+margin: 2px 0 2px 10px;
+font-family: EB Garamond;
+}
+
+.munnaBhaiya img{
+width: 13vw;
+border-radius: 12px;
+}
+.lastPara{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    
+}
+.lastPara>p{
+font-size: 1.9vw; 
+font-family: EB Garamond;   
+}
+
+/* Hamburger  */
+.hamburger{
+    
+}
+.hamburger span{
+    width: 32px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: 9px;
+}

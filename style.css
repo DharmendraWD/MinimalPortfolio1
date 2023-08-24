@@ -56,20 +56,22 @@ nav a{
 nav a:hover{
 color: royalblue;
 }
-nav button{
-padding: 3px 5px 3px 5px;
-color: royalblue;
-transition: 1s ease-in-out;
-outline: none;
-border: none;
+nav button {
+    padding: 3px 5px 3px 5px;
+    color: black;
+    transition: .4s ease-in-out;
+    outline: none;
+    border: none;
+    background: #c3bdbd;
+    border: 1px transparent;
+    padding: 3px 11px;
+    border-radius: 22px;
+    font-size: 17px;
 }
 nav button:hover{
-background: royalblue;
-color: white;
+    border: 1px solid black;
+    background: #ffffff;
 }
-
-
-
 /* Left Side first page CSS  */
 .pg1LeftText{
     /* background-color: blue; */
@@ -405,7 +407,7 @@ font-size: 3vw;
 }
 .emailAddress p{
 position: relative;
-left: 13%;
+left: 15%;
 font-size: 1.7vw;
 font-family: EB Garamond;
 }
@@ -422,12 +424,12 @@ font-size: 1.7vw;
 .munnaBhaiya{
 display: flex;
 justify-content: flex-end;
-align-items: flex-end;
+align-items: center;
 height: 100%;
 
 }
 .munnaBhaiya p{
-font-size: 3vw;
+font-size: 2vw;
 margin: 2px 0 2px 10px;
 font-family: EB Garamond;
 }
@@ -457,4 +459,18 @@ font-family: EB Garamond;
     background-color: black;
     display: block;
     margin: 9px;
+}
+
+/* Footer  */
+.footer {
+    /* position: absolute; */
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    width: 100%;
+}
+.footer span {
+font-size: 19px;
+font-family: EB Garamond;
 }

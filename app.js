@@ -1,4 +1,5 @@
 // To make hover effect on left side first page button 
+let body = document.body;
 document.addEventListener("DOMContentLoaded", function(){
     const b1= document.getElementById("b1");
     const b2= document.getElementById("b2");
@@ -21,3 +22,12 @@ document.addEventListener("DOMContentLoaded", function(){
         b1.style.backgroundColor = "#8873EF";
     });
 });
+
+// Hamburger 
+let hamburger = document.querySelector('.hamburger');
+
+hamburger.addEventListener('click', function(){
+    console.log("Clicked")
+    body.classList.toggle('respNav');
+
+})
